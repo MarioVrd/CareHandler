@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CareHandler</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="header__logo">CareHandler</a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="nav__link nav__link--active">Home</a></li>
+          <li class="nav__list-item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__list-item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__list-item"><a href="#blog" class="nav__link">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> <!-- /.header-->
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <h1 class="hero__title" data-aos="fade-up" data-aos-delay="100">Don't forget important <span
+            class="highlight-text">events</span>
+          ever again!</h1>
+        <p class="hero__intro" data-aos="fade-up" data-aos-delay="150">We’ve all been there... we forgot about
+          important
+          persons birthday,
+          anniversaries and so
+          on, but not anymore! From now on we’ve got you. We’ll notify you about everything and you can also sign up for
+          gift delivery all handled by us.</p>
+
+        <a class="btn" data-aos="fade-up" data-aos-delay="200" href="#">Sign Up</a>
+        <a class="btn btn--outline" data-aos="fade-up" data-aos-delay="200" href="#services">See Services</a>
+
+        <!-- <img src="./images/hero.svg" alt="" class="hero__image"> -->
+      </div>
+    </div>
+  </section> <!-- /.hero -->
+
+  <section id="services" class="services">
+    <div class="container">
+      <h1 class="section-title" data-aos="fade-right" data-aos-offset="0">Services</h1>
+
+      <div class="services__grid">
+        <div class="card" data-aos="fade-up">
+          <img src="./images/bouquet_icon.svg" alt="bouquet" class="card__icon">
+          <h3 class="card__title">Flowers Delivery</h3>
+          <p class="card__description">We cooperate with best flower shops all around world so you can be sure your love
+            ones will get most beautiful and fresh flowers.</p>
+          <a href="#" class="card__link">Read more...</a>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <img src="./images/gift_icon.svg" alt="gift" class="card__icon">
+          <h3 class="card__title">Gift Delivery</h3>
+          <p class="card__description">We asked thousands of people what would they like as a gift for different
+            occasions so you can
+            be sure that everyone will love the gift.</p>
+          <a href="#" class="card__link">Read more...</a>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <img src="./images/clock_icon.svg" alt="clock" class="card__icon">
+          <h3 class="card__title">Notifications</h3>
+          <p class="card__description">We will notify you about every occasion just in case you get occupied by
+            something so that you never forgot anything.</p>
+          <a href="#" class="card__link">Read more...</a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- /.services -->
+
+  <section id="about" class="about">
+    <div class="container">
+      <h1 class="section-title" data-aos="fade-right">How It Works</h1>
+
+      <p class="about__description" data-aos="fade-up">
+        CareHandler is pretty straight forward. You just have to sign up, add persons you care about and important
+        dates, and we’ll take care of everything else.
+      </p>
+
+      <a href="#" class="btn btn--primary" data-aos="fade-up" data-aos-offset="50">Sign Up</a>
+
+      <img src="./images/watermark_steps.svg" data-aos="fade-left" alt="sign up, set up, enjoy life"
+        class="about__watermark">
+    </div>
+  </section> <!-- /.about -->
+
+  <section id="blog" class="blog">
+    <div class="container">
+      <h1 class="section-title" data-aos="fade-right">Latest From Blog</h1>
+
+      <div class="blog__grid">
+        <article class="blog__article" data-aos="fade-up">
+          <img src="./images/couple.jpg" class="blog__image" alt="how to choose perfect gift for anniversary">
+          <div class="blog__content">
+            <h3 class="blog__title">How to choose perfect gift for anniversary</h3>
+            <p class="blog__intro">Anniversaries are the most important events in life so it's really important to know
+              how to choose a perfect gift</p>
+          </div>
+        </article>
+
+        <article class="blog__article" data-aos="fade-up" data-aos-delay="100">
+          <img src="./images/flower_girl.jpg" class="blog__image" alt="flowers">
+          <div class="blog__content">
+            <h3 class="blog__title">What flowers does your girlfriend love</h3>
+            <p class="blog__intro">Flowers are the most popular gift, but how to know what flowers your girlfriend
+              likes. We created this guide to help you</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section> <!-- /.blog -->
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copyright">Copyright &copy; All rights reserved.
+        <br><a href="#">Privacy Policy</a></p>
+
+      <div class="footer__socials">
+        <a href="#" target="_blank" class="footer__icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" class="footer__icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank" class="footer__icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
